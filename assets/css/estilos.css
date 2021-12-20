@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html,body{
+    padding: 0;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    font-family: "Montserrat";
+    color:#333;
+}
+.divlogin {
+    background: url(../img/fondo-login.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.divlogin .container {
+    width: 100%;
+    text-align: center;
+    
+}
+.divlogin .container .divcont {
+    width: 100%;
+    max-width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+img{
+    width: 30%;
+}
+.divlogin .container .divcont h2 {
+    margin-top: 0px;   
+}
+.divlogin .container .divcont input {
+    height: 30px;
+    margin: 0px;
+    border: 0px;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    text-align: center;
+    background: #c8cef5;
+}
+.divlogin .container .divcont input.error{
+    border-bottom: 3px solid red;
+}
+.divlogin .container .divcont button {
+    margin: 0px;
+    border: 0px;
+    display: block;
+    margin: auto;
+    padding: 10px 30px;
+    background: #353953;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    width: 95%;
+    height: 50px;
+    font-size: 20px;
+}
